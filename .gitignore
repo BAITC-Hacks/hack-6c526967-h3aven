@@ -1,0 +1,17 @@
+temp/
+.legacy-backup/
+models/
+meeting.mp3
+*.mp3
+*.wav
+*.mp4
+*.docx.md
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.env
+ffmpeg.exe
+ffprobe.exe
+.streamlit/

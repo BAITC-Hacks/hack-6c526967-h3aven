@@ -1,0 +1,4 @@
+# Optional high-accuracy diarization backend. The default CPU backend needs no token.
+pyannote.audio==3.3.2
+torch>=2.0.0
+torchaudio>=2.0.0
