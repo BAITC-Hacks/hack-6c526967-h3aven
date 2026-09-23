@@ -12,5 +12,7 @@ class Settings:
     language_mode: str = os.getenv("LANGUAGE_MODE", "auto")
     output_dir: Path = Path(os.getenv("OUTPUT_DIR", "output"))
     hf_token: str | None = os.getenv("HF_TOKEN") or None
+    ollama_url: str = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
+    ollama_model: str | None = os.getenv("OLLAMA_MODEL") or None
 
 settings = Settings()
